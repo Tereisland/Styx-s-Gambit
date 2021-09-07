@@ -90,8 +90,8 @@ class Missile {
   }
 
   move() {
-    this.x = this.x + (this.targetX / this.speed);
-    this.y = this.y + (this.targetY / this.speed);
+    this.x = this.x - (this.targetX / this.speed);
+    this.y = this.y - (this.targetY / this.speed);
   }
 }
 
